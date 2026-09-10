@@ -10,20 +10,20 @@ class Sloane < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/pi-sloane/cli/releases/download/v0.6.17/sloane-darwin-arm64.zip"
-      sha256 "1cae16f88a1a15cb2736b6900cbbf6c4a27ace6c9b5fcb1106716bd62ea32269"
+      sha256 "995d7793c907f4c5e93e761578fe4a0e4e2f7867fdf7846941bcc8babf149175"
     else
       url "https://github.com/pi-sloane/cli/releases/download/v0.6.17/sloane-darwin-x64.zip"
-      sha256 "31b065530760e89b400dd1c1d09660e9db2a274d379c838396d8f8469e377e5c"
+      sha256 "5f64890aade286700ac4b06468e4e7838d1db4451266b6996a3910b53a96ad18"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/pi-sloane/cli/releases/download/v0.6.17/sloane-linux-arm64.tar.gz"
-      sha256 "221c0f50a36819912d055f9e7f2685b5c582c358ad5dde4f2609addc7b95190d"
+      sha256 "ad24928e30f2f03a8911b182479c5cd79099a1ee14339f1f8acb7f769bab625e"
     else
       url "https://github.com/pi-sloane/cli/releases/download/v0.6.17/sloane-linux-x64.tar.gz"
-      sha256 "2cfe24e46774aea07c61cc2f9d31c6a2c93219fcef37f2fced653d9f29692210"
+      sha256 "70abe1ce476eb160a90756c7fa884e484abf40e49b8888809f5c3733ada214eb"
     end
   end
 
