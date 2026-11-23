@@ -4,26 +4,26 @@
 class Sloane < Formula
   desc "Gives your coding agent your organization's security context from Pi"
   homepage "https://github.com/pi-sloane/cli"
-  version "0.7.11"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pi-sloane/cli/releases/download/v0.7.11/sloane-darwin-arm64.zip"
-      sha256 "bd721c3aaf35552e9ca7e2dbb35ed9f7c088de89748a3893a77ea2f30ff56aec"
+      url "https://github.com/pi-sloane/cli/releases/download/v0.8.0/sloane-darwin-arm64.zip"
+      sha256 "38d7484b15a7fe08a98d1e730c6004c87e93d17e536e3b0a29fd08fd4cc110e3"
     else
-      url "https://github.com/pi-sloane/cli/releases/download/v0.7.11/sloane-darwin-x64.zip"
-      sha256 "8ced43355f8e940cab8cde966d0d54987b85abff0aa7b058e67a019e7a5c9869"
+      url "https://github.com/pi-sloane/cli/releases/download/v0.8.0/sloane-darwin-x64.zip"
+      sha256 "0ff02907f0f1990731379a2e4803aa8f35a91320feede0008fc70efeaa654181"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pi-sloane/cli/releases/download/v0.7.11/sloane-linux-arm64.tar.gz"
-      sha256 "7f1a1fb12f2c5c7c1195ac61c3069a38acf083a8804cf72f39cc60c41104d47d"
+      url "https://github.com/pi-sloane/cli/releases/download/v0.8.0/sloane-linux-arm64.tar.gz"
+      sha256 "e3b68622309cc3e6764c5f198d5a5af8ec7d2bbe4b2c69b4c5d3162ffde60104"
     else
-      url "https://github.com/pi-sloane/cli/releases/download/v0.7.11/sloane-linux-x64.tar.gz"
-      sha256 "789f5f2ae5d12d45c56a77fbddef783c3bff676075b3457105c3045cabe89526"
+      url "https://github.com/pi-sloane/cli/releases/download/v0.8.0/sloane-linux-x64.tar.gz"
+      sha256 "a2320ae6bc5147e4f1b38dd32db8cdcad2bf9cf92b79ac235406dd5e128c08a6"
     end
   end
 
